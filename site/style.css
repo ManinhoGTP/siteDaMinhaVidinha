@@ -1,3 +1,4 @@
+/* Inicio da página */
 #tituloPrincipal{
     text-align: center;
     color: darkred;
@@ -28,7 +29,18 @@
     border-radius: 5px;
     border-color: antiquewhite;
 }
+/* Parte boa */
+
+
+
+/* Fim da página */
+#extra
+/* Aplicar a todos */
 body{
     background-image: linear-gradient(rgb(255, 120, 120), rgb(253, 163, 163));
     background-attachment: fixed;
+}
+hr{
+    border-width: 5px;
+    border-color: rgb(255, 120, 120);
 }
