@@ -34,7 +34,11 @@
 
 
 /* Fim da página */
-#extra
+#extrasTitulo{
+    text-align: center;
+}
+
+
 /* Aplicar a todos */
 body{
     background-image: linear-gradient(rgb(255, 120, 120), rgb(253, 163, 163));
