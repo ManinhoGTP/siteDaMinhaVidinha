@@ -3,7 +3,7 @@
     text-align: center;
     color: darkred;
     border-style: solid;
-    border-radius: 6px;
+    border-radius: 10px;
     border-color: pink;
     background-color: antiquewhite;
     border-width: 5px;
@@ -29,7 +29,28 @@
     border-radius: 5px;
     border-color: antiquewhite;
 }
+
+
 /* Parte boa */
+#divBotoes{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.botoes{
+    border-style: solid;
+    border-color: rgb(161, 84, 97);
+    border-radius: 6px;
+    background-color: pink;
+}
+
+.tela{
+    display: none;
+}
+.ativa{
+    display: block;
+}
+
 
 
 

@@ -21,16 +21,33 @@
 
     <hr>
 
-    <section id="sectionCoisas">
+    <div id="divBotoes">
+        <button onclick="mostrarSection('tela1')" class="botoes">Calendário / Datas</button>
+        <button onclick="mostrarSection('tela2')" class="botoes">Melhores momentos</button>
+        <button onclick="mostrarSection('tela3')" class="botoes">Músicas</button>
+        <button onclick="mostrarSection('tela4')" class="botoes">Coisas que eu gostaria de fazer com você</button>
+    </div>
 
-    </section>
-
-    <hr>
-
-    <section id="sectionExtras">
-        <h3 id="extrasTitulo">Extras</h3>
+        <section id="tela1" class="tela ativa">
+            #1
+        </section>
         
-    </section>
+        <section id="tela2" class="tela">
+            #2
+        </section>
+        
+        <section id="tela3" class="tela">
+            #3
+        </section>
+        
+        <section id="tela4" class="tela">
+            #4
+        </section>
+
+    <hr id="hrExtras">
+
+    <h3 id="extrasTitulo">Extras</h3>
+        
 
     <script src="script.js"></script>
 </body>
