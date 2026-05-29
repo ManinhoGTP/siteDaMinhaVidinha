@@ -1,6 +1,6 @@
 /* Inicio da página */
 #tituloPrincipal{
-    text-align: center;
+    /* text-align: center; */
     color: darkred;
     border-style: solid;
     border-radius: 10px;
@@ -8,17 +8,10 @@
     background-color: antiquewhite;
     border-width: 5px;
 }
-#sectionInicio{
-    display: flex;
+.sectionInicio{
+    display:flex;
 }
-/* #fotoInicio{
-    margin-left: 200px;
-    margin-top: 20px;
-    width: 249.75px;
-    height: 350px;
-} */
 #introdução{
-    display: inline-block;
     padding: 10px;
     padding-bottom: 20px;
     font-weight: bolder;
@@ -29,6 +22,17 @@
     border-radius: 5px;
     border-color: antiquewhite;
 }
+.textoInicio1{
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+}
+.textoInicio2{
+    text-align: right;
+    font-size: large;
+    font-weight: bolder;
+}
+
 
 
 /* Parte boa */

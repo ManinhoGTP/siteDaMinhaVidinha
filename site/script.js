@@ -26,5 +26,5 @@ const tempo = setInterval(function() {
     const m = Math.floor((diferença % (1000 * 60 * 60)) / (1000 * 60))
     const s = Math.floor((diferença % (1000 * 60)) / 1000)
 
-    relogio.innerHTML = `${d}d ${h}h ${m}m ${s}s`
+    relogio.innerHTML = `|${d}d | ${h}h | ${m}m | ${s}s |`
 }, 1000)
