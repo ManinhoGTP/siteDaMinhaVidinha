@@ -1,6 +1,5 @@
 #section-login{
     display: flex;
-    /* text-align: center; */
 }
 .div-login{
     border-style: solid;
@@ -35,6 +34,7 @@ input{
 }
 #saida{
     color: red;
+    font-size: smaller;
 }
 
 
@@ -45,6 +45,7 @@ input{
 }
 h1{
     text-align: center;
+    margin-bottom: 80px;
 }
 body{
     background-image: linear-gradient(rgb(255, 167, 248), rgb(255, 213, 213));

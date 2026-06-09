@@ -5,9 +5,9 @@ function fazerLogin(){
     let output = document.getElementById("saida")
 
     if(usuario.value != "amorDaMinhaVida"){
-        output.innerHTML = "Erro! usuário inválido. Tente 'amorDaMinhaVida'"
+        output.innerHTML = "usuário inválido tente 'amorDaMinhaVida'"
     }else if(senha.value != "03042010"){
-        output.innerHTML = "Erro! senha inválida. Tente '03042010'"
+        output.innerHTML = "senha inválida. Tente '03042010'"
     }else{
         window.location = "index.html"
     }
