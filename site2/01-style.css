@@ -1,3 +1,4 @@
+/* Cabeça da página */
 #section-introducao{
     display: flex;
 }
@@ -10,10 +11,24 @@
     padding-left: 10px;
     padding-right: 10px;
     overflow-wrap: break-word;
-    background-image: linear-gradient(45deg,rgb(255, 159, 159)10%, rgb(255, 213, 213)90%)
+    background-image: linear-gradient(45deg,rgb(255, 159, 159)10%, rgb(255, 213, 213)90%);
+    border-radius: 8px;
+    margin-top: 20px;
 }
-
-
+/* Meio da página */
+hr{
+    border-color: blueviolet;
+    border-width: 5px;
+    margin-top: 30px;
+}
+#div-meio{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.btn-meio{
+    border-radius: 5px;
+}
 
 /* importante */
 h1{
