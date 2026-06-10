@@ -22,20 +22,32 @@
             </p>
         </div>
     </section>
+
+    <main>
     <hr>
 
-    <div id="div-meio">
-        <button class="btn-meio">1111</button>
-        <button class="btn-meio">2222</button>
-        <button class="btn-meio">3333</button>
-        <button class="btn-meio">4444</button>
-    </div>
-
-    <section id="section-meio" class="tela">
-
-
-    </section>
-
-    <script src="script.js"></script>
+        
+        <div id="div-meioBtns">
+            <button class="btn-meio", onclick="mostrarSection('section-meio1')">1111</button>
+            <button class="btn-meio", onclick="mostrarSection('section-meio2')">2222</button>
+            <button class="btn-meio", onclick="mostrarSection('section-meio3')">3333</button>
+            <button class="btn-meio", onclick="mostrarSection('section-meio4')">4444</button>
+        </div>
+        
+        <section id="section-meio1" class="tela ativa">
+            #1
+        </section>
+        <section id="section-meio2" class="tela">
+            #2
+        </section>
+        <section id="section-meio3" class="tela">
+            #3
+        </section>
+        <section id="section-meio4" class="tela">
+            #4
+        </section>
+        
+    </main>
+    <script src="01-script.js"></script>
 </body>
 </html>
