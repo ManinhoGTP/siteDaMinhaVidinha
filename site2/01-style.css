@@ -55,10 +55,11 @@ hr{
     max-width: 300px;
     max-height: 300px;
     border-radius: 10px;
+    align-self: center;
 }
 #bloco{
     background-color: rgb(237, 210, 255);
-    display: flex;
+    display: block;
     max-width: 750px;
     margin-top: 10px;
     margin-bottom: 20px;
