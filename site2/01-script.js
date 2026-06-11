@@ -1,3 +1,4 @@
+//Funçao da página de login
 function fazerLogin(){
 
     let usuario = document.getElementById("usuario")
@@ -13,6 +14,8 @@ function fazerLogin(){
     }
     
 }
+
+//Função de mostrar / sumir section
 function mostrarSection(sectionId){
 
     const section = document.querySelectorAll(".tela")
@@ -25,7 +28,6 @@ function mostrarSection(sectionId){
     sectionAtiva.classList.add("ativa")
 
 }
-
 let SubSectionNum = 1
 function proximaSubSection(){
 
@@ -72,8 +74,8 @@ function ultimaSubSection(){
     }
 }
 
+//Imagens clicaveis
 const imagens = document.querySelectorAll('.imagemClicavel')
-
 imagens.forEach((img) => {
     img.addEventListener('click', () => {
         alert(`${img.alt}`)

@@ -29,11 +29,15 @@ hr{
     display: flex;
     justify-content: center;
     gap: 10px;
+    /* background-color: white; */
 }
 .btn-meio{
     border-radius: 5px;
 }
-
+.btn-meio:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
 
 
 #section-meio1{
@@ -71,25 +75,46 @@ body{
     margin-top: 10px;
     border-radius: 5px;
 }
+.btn-mudarSection:hover{
+    transition: 0.2s;
+    scale: 1.1;
+}
 #teste{
     text-align: center;
+    /* background-color: white; */
 }
 #subSectionTitulo{
     text-align: center;
 }
 #subSectionImagem{
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border-radius: 15px;
     border-style: dashed;
+    position: relative;
+    right: 140px;
+    top: 25px;
+    margin: 10px;
 }
 #subSectionImagem:hover{
     transition: 0.2s;
     scale: 1.1;
     cursor: pointer;
+
 }
 #subSectionMain{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 20px;
+    display: flex;
+}
+#subSectionTexto{
+    background-image: linear-gradient(rgb(243, 212, 255), rgb(255,255,255));
+    border-radius: 10px;
+    width: 250px;
+    height: 250px;
+    overflow-wrap: break-word;
+    padding: 10px;
+    top: 25px;
+    position: relative;
+    font-weight: bolder;
+    font-size: 19px;
+    border-style: dashed;
 }
