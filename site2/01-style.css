@@ -98,7 +98,8 @@ body{
     position: relative;
     right: 240px;
     top: 18px;
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
     margin-bottom: 80px;
 }
 #subSectionImagem:hover{
